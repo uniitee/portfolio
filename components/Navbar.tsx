@@ -112,13 +112,17 @@ export default function Navbar() {
           bg-zinc-600/10 backdrop-blur-lg border border-white/10 shadow-xl font-unigo"
         >
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link
+            href="/"
+            className="flex items-center gap-2"
+            onMouseEnter={playHoverSound}
+          >
             <Image
               src="/uniitee.svg"
               alt="UniiTee Logo"
               width={28}
               height={28}
-              className="object-contain"
+              className="transition-transform duration-300 hover:scale-110 object-contain bg-transparent"
               priority
             />
           </Link>
