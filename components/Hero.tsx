@@ -1,7 +1,23 @@
 "use client";
 import FootstepTrail from "./FootstepTrail";
+import { playHoverSound, enableHoverSound } from "@/lib/sounds";
+import { useEffect } from "react";
+
 
 const Hero = () => {
+
+  useEffect(() => {
+    const handleFirstClick = () => {
+      enableHoverSound();
+      document.removeEventListener("click", handleFirstClick);
+    };
+    document.addEventListener("click", handleFirstClick);
+
+    return () => {
+      document.removeEventListener("click", handleFirstClick);
+    };
+  }, []);
+
   return (
     <div className="w-full h-svh flex flex-col items-center justify-center gap-4">
       <FootstepTrail />
@@ -34,9 +50,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="grid grid-cols-3 w-full px-32 justify-center items-center font-sacramento text-xl font-bold  text-center">
-        <div className="border-4 border-zinc-300 rounded-l-sm">EXCELLENCE</div>
-        <div className="border-y-4 border-zinc-300 ">SERVITUDE</div>
-        <div className="border-4 border-zinc-300 rounded-r-sm">GRATITUDE</div>
+        <div className="border-4 border-zinc-300 rounded-l-sm hover:text-black hover:bg-zinc-300" 
+                  onMouseEnter={playHoverSound}>EXCELLENCE</div>
+        <div className="border-y-4 border-zinc-300 hover:text-black hover:bg-zinc-300" 
+                  onMouseEnter={playHoverSound}>SERVITUDE</div>
+        <div className="border-4 border-zinc-300 rounded-r-sm hover:text-black hover:bg-zinc-300" 
+                  onMouseEnter={playHoverSound}>GRATITUDE</div>
       </div>
     </div>
   );
