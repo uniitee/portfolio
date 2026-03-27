@@ -100,7 +100,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl"
+      className="fixed top-1 sm:top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl"
       initial={{ y: -10 }}
       animate={{ y: isVisible ? 10 : -100 }}
       transition={{ duration: 0.3, ease: "easeInOut" }}
@@ -120,8 +120,8 @@ export default function Navbar() {
             <Image
               src="/uniitee.svg"
               alt="UniiTee Logo"
-              width={28}
-              height={28}
+              width={26}
+              height={26}
               className="transition-transform duration-300 hover:scale-110 object-contain bg-transparent"
               priority
             />

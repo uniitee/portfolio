@@ -25,7 +25,7 @@ const amita = Amita({
 const sacramento = loacalFont({
   src: [
     {
-      path: "../public/sacramento/Sacramento.ttf",
+      path: "../public/fonts/sacramento/Sacramento.ttf",
       weight: "400",
       style: "normal",
     },
@@ -36,7 +36,7 @@ const sacramento = loacalFont({
 const moms_typewriter = loacalFont({
   src: [
     {
-      path: "../public/moms_typewriter/Mom«t___.ttf",
+      path: "../public/fonts/moms_typewriter/Mom«t___.ttf",
     },
   ],
   variable: "--font-moms-typewriter",
