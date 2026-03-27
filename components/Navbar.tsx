@@ -44,7 +44,7 @@ export default function Navbar() {
         hoverSoundRef.current = new Audio("/sounds/hover-click.mp3");
       }
       if(!musicRef.current){
-        musicRef.current = new Audio("/sounds/cornfield-chase.mp3")
+        musicRef.current = new Audio("/sounds/audio.m4a")
         musicRef.current.loop = true;
       }
       setSoundEnabled(true);

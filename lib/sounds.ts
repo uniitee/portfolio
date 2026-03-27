@@ -4,7 +4,7 @@ let isEnabled = false;
 // Call this once after the user clicks anywhere
 export const enableHoverSound = () => {
   if (!hoverSound) {
-    hoverSound = new Audio("/sounds/hover-click.mp3");
+    hoverSound = new Audio("/sounds/audio.m4a");
     hoverSound.load(); // preload the sound
   }
   isEnabled = true;

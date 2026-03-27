@@ -38,7 +38,7 @@ const About = () => {
         <div className="w-full h-0.5 bg-zinc-800"></div>
 
         <div className="grid grid-cols-3 text-xs sm:text-sm md:text-base gap-2 sm:gap-6 py-1">
-          <div className="text-center sm:text-left">Rant no. oo7</div>
+          <div className="text-center sm:text-left">Rant no. 394</div>
           <div className="text-center">Super Special Edition</div>
           <div className="text-center sm:text-right">Special Issue</div>
         </div>
@@ -69,12 +69,12 @@ const About = () => {
             </p>
           </div>
 
-          <div className="hidden md:block bg-[url('/images/rocket.jpg')] bg-cover bg-center w-full h-40 sm:h-52 md:h-full mt-2"></div>
+          <div className="hidden md:block bg-[url('/images/cowboy.gif')] bg-cover bg-center w-full h-40 sm:h-52 md:h-full mt-2"></div>
         </div>
 
         {/* Center Column */}
         <div className="flex flex-col gap-4 min-w-0 lg:col-span-3 md:border-x md:border-zinc-800 md:px-4 lg:px-8">
-          <div className="bg-[url('/images/rocket.jpg')] bg-cover bg-center w-full h-48 sm:h-64"></div>
+          <div className="bg-[url('/images/howgwards.gif')] bg-cover bg-center w-full h-48 sm:h-64"></div>
 
           <div>
             <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-wider leading-tight wrap-break-word mb-2">
@@ -84,19 +84,17 @@ const About = () => {
             <div className="text-xs sm:text-sm font-thin text-justify">
               <p className="mb-2">
                 It is impossible to precisely determine both position and
-                momentum simultaneously. Δx⋅Δp ≥ h/2
+                momentum simultaneously.
               </p>
-
+              <p className="text-center">Δx⋅Δp ≥ h/2</p>
               <p className="my-2">
-                Although Planck's constant is extremely small - making these
-                effects negligible at macroscopic scales - I have a theory that
-                everything is fundamentally microscopic, if you look at the
-                bigger picture.
+                Although Planck's constant being extremely small makes these
+                effects negligible at macroscopic level, but if you look at the
+                bigger picture everything is fundamentally
+                microscopic.
               </p>
-
               <p>
-                Hence, I cannot scientifically confirm my availability this
-                weekend; apologies in advance if I cancel last minute.
+                Hence, I cannot scientifically confirm my availability for a future date; apologies in advance if I cancel last minute.
               </p>
             </div>
           </div>
@@ -122,7 +120,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-[url('/images/rocket.jpg')] bg-cover bg-center w-full h-40 sm:h-52 md:h-full mt-2"></div>
+          <div className="bg-[url('/images/rain.gif')] bg-cover bg-center w-full h-40 sm:h-52 md:h-full mt-2"></div>
         </div>
       </div>
     </div>
