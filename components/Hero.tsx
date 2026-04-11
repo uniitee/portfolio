@@ -14,22 +14,23 @@ const Hero = () => {
       {/* Main Card */}
       <div className="bg-[url('/images/rocket.jpg')] bg-no-repeat bg-cover w-full max-w-5xl flex flex-col justify-center px-4 sm:px-8 md:px-18 py-8 rounded-sm gap-12 sm:gap-20">
       
-        <div className="w-full sm:px-8 font-sacramento ">
-          <div className="grid grid-cols-2 text-xs sm:text-sm">
-            <div>I AM</div>
-            <div className="hidden lg:flex justify-end">OR AM I ?</div>
+        <div className="flex justify-center">
+          <div className="w-fit px-2 sm:px-8 font-sacramento flex flex-col justify-center">
+            <div className="flex flex-row text-xs sm:text-sm justify-between">
+              <div>I AM</div>
+              <div className="hidden sm:flex justify-end">OR AM I ?</div>
+            </div>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-zinc-100 tracking-wide wrap-brea sm:text-center">
+              UMA GHILDIYAL
+            </h1>
+            <div className="sm:hidden flex justify-start">OR AM I ?</div>
           </div>
-
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-zinc-100 w-full tracking-wide wrap-brea text-center sm:[text-align-last:justify]">
-            UMA GHILDIYAL
-          </h1>
-          <div className="lg:hidden flex justify-end">OR AM I ?</div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 text-zinc-100 font-moms-typewriter tracking-tight text-xs gap-4 sm:gap-10 bg-black/65 p-2 rounded-sm">
           <div className="flex flex-col justify-between">
             <div>
-              I solemnly swear that I am up to no good. I cannot emphasize
+              I solemnly swear that I am up to no good. I cannot emphasize this
               enough.
             </div>
             <div className="hidden sm:flex lg:hidden">
@@ -46,8 +47,7 @@ const Hero = () => {
           </div>
 
           <div className="flex sm:hidden lg:flex">
-            Also, I have a theory that I was never born, but I have no proof of
-            that. So I will just say that I am ageless.
+            I have a theory that I was never born. So I will just say that I am ageless.
           </div>
         </div>
       </div>
