@@ -5,15 +5,13 @@ const Hero = () => {
 
   return (
     <div className="w-full min-h-svh flex flex-col items-center justify-center gap-4 mt-24 sm:mt-12 md:mt-20 lg:mt-4 px-4 ">
-      <FootstepTrail />
-
       <h1 className="text-sm sm:text-xl font-amita text-center text-zinc-400">
         ~ सत्यं परं धीमहि ~
       </h1>
 
       {/* Main Card */}
-      <div className="bg-[url('/images/rocket.jpg')] bg-no-repeat bg-cover w-full max-w-5xl flex flex-col justify-center px-4 sm:px-8 md:px-18 py-8 rounded-sm gap-12 sm:gap-20">
-      
+      {/* bg-[url('/images/blue2.jpg')] bg-contain */}
+      <div className=" w-full max-w-5xl flex flex-col justify-center px-4 sm:px-8 md:px-18 py-8 rounded-sm gap-12 sm:gap-20">
         <div className="flex justify-center">
           <div className="w-fit px-2 sm:px-8 font-sacramento flex flex-col justify-center">
             <div className="flex flex-row text-xs sm:text-sm justify-between">
@@ -47,7 +45,8 @@ const Hero = () => {
           </div>
 
           <div className="flex sm:hidden lg:flex">
-            I have a theory that I was never born. So I will just say that I am ageless.
+            I have a theory that I was never born. So I will just say that I am
+            ageless.
           </div>
         </div>
       </div>

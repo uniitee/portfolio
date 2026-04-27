@@ -3,6 +3,8 @@ import { Playfair_Display_SC, Amita, Anton_SC } from "next/font/google";
 import loacalFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import FootstepTrail from "@/components/FootstepTrail";
 
 const PlayfairDisplaySC = Playfair_Display_SC({
   subsets: ["latin"],
@@ -56,11 +58,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${moms_typewriter.variable} ${sacramento.variable} ${PlayfairDisplaySC.variable} ${amita.variable} ${antonSC.variable} antialiased bg-zinc-950 text-zinc-100 min-h-screen flex flex-col`}
+        className={`${moms_typewriter.variable} ${sacramento.variable} ${PlayfairDisplaySC.variable} ${amita.variable} ${antonSC.variable} antialiased  text-zinc-100 min-h-screen flex flex-col bg-[#111111]`}
       >
-        <div className="relative z-20">
+        <div className="relative z-20 bg-[url('/images/map.jpg')] bg-contain bg-fixed">
           <Navbar />
+          <FootstepTrail />
           <main>{children}</main>
+          <Footer />
         </div>
       </body>
     </html>

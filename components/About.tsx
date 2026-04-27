@@ -102,25 +102,30 @@ const About = () => {
         <div className="flex flex-col gap-2 min-w-0 lg:col-span-1">
           <div>
             <h1 className="font-bold text-md sm:text-2xl tracking-wider mb-2 wrap-break-word">
-              EVERYTHING TO EVER EXIST
+              SHE WAS A WIZARD
             </h1>
 
             <div className="w-full h-0.5 bg-zinc-800 mb-2"></div>
 
             <h2 className="text-sm sm:text-md tracking-wide mb-2 wrap-break-word">
-              IT'S ALL IN THE MIND
+              THIS ISN'T VIBE CODE. THIS IS MAGIC.
             </h2>
 
             <div className="w-full h-0.5 bg-zinc-800 mb-2"></div>
 
             <p className="text-xs sm:text-sm text-justify">
-              Trust me on this one. Developers do not lie.
+              Her Laptop was Her Broom. A noisy one for sure, like chopper level
+              noisy, but it got her where she wanted.
             </p>
           </div>
 
-          <div className="bg-[url('/images/rain.gif')] bg-cover bg-center w-full h-40 sm:h-52 lg:h-full hidden lg:flex"></div>
+          <div className="bg-[url('/images/rain.gif')] bg-cover bg-center w-full h-40 sm:h-52 lg:h-full hidden lg:flex">
+            <div className="w-full h-full bg-[#004799]/38"></div>
+          </div>
         </div>
-          <div className="hidden sm:flex lg:hidden bg-[url('/images/rain.gif')] bg-cover bg-center w-full h-svh"></div>
+        <div className="hidden sm:flex lg:hidden bg-[url('/images/rain.gif')] bg-cover bg-center w-full h-2/2">
+          <div className="w-full h-full bg-[#004799]/38"></div>
+        </div>
       </div>
     </div>
   );

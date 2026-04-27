@@ -63,13 +63,13 @@ export default function Navbar() {
    const navItems = [
      { name: "HOME", href: "/" },
      {
-       name: "BLOG",
-       href: "/blogs",
+       name: "PROJECTS",
+       href: "/projects",
        icon: <ArrowBigRightDash size={14} className="inline ml-1 mb-0.5" />,
      },
      {
-       name: "PROJECTS",
-       href: "/projects",
+       name: "BLOG",
+       href: "/blogs",
        icon: <ArrowBigRightDash size={14} className="inline ml-1 mb-0.5" />,
      },
    ];
