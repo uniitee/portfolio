@@ -60,7 +60,7 @@ export default function RootLayout({
       <body
         className={`${moms_typewriter.variable} ${sacramento.variable} ${PlayfairDisplaySC.variable} ${amita.variable} ${antonSC.variable} antialiased  text-zinc-100 min-h-screen flex flex-col bg-[#111111]`}
       >
-        <div className="relative z-20 bg-[url('/images/map.jpg')] bg-contain bg-fixed">
+        <div className="relative z-20 bg-[url('/images/map.png')] bg-contain bg-fixed">
           <Navbar />
           <FootstepTrail />
           <main>{children}</main>

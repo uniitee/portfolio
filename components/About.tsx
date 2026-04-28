@@ -64,8 +64,9 @@ const About = () => {
             <div className="w-full h-0.5 bg-zinc-800 mb-2"></div>
 
             <p className="text-xs sm:text-sm text-justify">
-              This is so serious that it has to be on a newspaper, but the
-              mainstream media said it was too good for them.
+              The subject misses her sister terribly and also suffers from tldr
+              issues, thus implores fellow peasants to only text her in 20 words
+              or less.
             </p>
           </div>
 
@@ -85,14 +86,16 @@ const About = () => {
 
             <div className="text-xs sm:text-sm font-thin text-justify">
               <p className="mb-2">
-                It is impossible to precisely determine the both position and
-                momentum for a quantum particle simultaneously.
+                Physists claim that it is impossible to precisely determine the
+                both position and momentum for a quantum particle
+                simultaneously.
               </p>
               <p className="text-center">Δx⋅Δp ≥ h/2</p>
               <p className="my-2">
-                And since everything is fundamentally microscopic, I cannot
-                scientifically confirm my availability for a future date;
-                apologies in advance if I cancel last minute.
+              The dev agrees and adds that since everything is fundamentally microscopic,
+                the dev cannot scientifically confirm her availability for a
+                future date; and sends her apologies in advance for canceling
+                last minute.
               </p>
             </div>
           </div>
@@ -114,8 +117,8 @@ const About = () => {
             <div className="w-full h-0.5 bg-zinc-800 mb-2"></div>
 
             <p className="text-xs sm:text-sm text-justify">
-              Her Laptop was Her Broom. A noisy one for sure, like chopper level
-              noisy, but it got her where she wanted.
+              The engineer greets the visitors and insists them to take a moment
+              to appreciate the footsteps and the oh-so-intricate background.
             </p>
           </div>
 
