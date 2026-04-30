@@ -65,7 +65,7 @@ const About = () => {
 
             <p className="text-xs sm:text-sm text-justify">
               The subject misses her sister terribly and also suffers from tldr
-              issues, thus implores fellow peasants to only text her in 20 words
+              issues, thus implores fellow peasants to text her in only 20 words
               or less.
             </p>
           </div>
