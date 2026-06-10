@@ -27,11 +27,11 @@ const Hero = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 text-zinc-100 font-moms-typewriter tracking-tight text-xs gap-4 sm:gap-10 bg-black/65 p-2 rounded-sm">
           <div className="flex flex-col justify-between">
-            <div>
+            <div className="text-justify">
               I solemnly swear that I am up to no good. I cannot emphasize this
               enough.
             </div>
-            <div className="hidden sm:flex lg:hidden">
+            <div className="hidden sm:flex lg:hidden text-justify">
               Also, I have a theory that I was never born, but I have no proof
               of that. So I will just say that I am ageless.
             </div>
@@ -44,7 +44,7 @@ const Hero = () => {
             no good.
           </div>
 
-          <div className="flex sm:hidden lg:flex">
+          <div className="flex sm:hidden lg:flex text-justify">
             I have a theory that I was never born. So I will just say that I am
             ageless.
           </div>

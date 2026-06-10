@@ -13,7 +13,7 @@ const FootstepTrail = () => {
   const config = {
     lifespan: 600,
     removalDelay: 50,
-    mouseThreshold: 80, //  
+    mouseThreshold: 80,  
     shrinkDelay: 300, // ms after spawn to start shrinking
     shrinkScale: 0.5, // scale to shrink down to before fade
   };

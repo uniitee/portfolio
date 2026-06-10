@@ -1,20 +1,61 @@
 "use client";
+import ProjectCard from "@/components/ui/ProjectCard";
 
-const Projects = () => {
+export default function Projects() {
+  const projects = [
+    {
+      id:1,
+      feild: "Ai/Ml",
+      title: "Art GAN",
+      description: "A Generative Adversarial Network to generate realistic oil-painted portraits",
+      techStack: ["Python","Tensorflow", "keras"],
+      imageSrc: "/images/sarasu30.png",
+      sourceUrl: "https://github.com/uniitee/MLSC_SeasonOfAI/blob/main/Art_Gan.ipynb",
+    },
+    {
+      id:2,
+      feild: "Fullstack",
+      title: "Cheer Board",
+      description: "Supporting educator wellbeing through reflection, mindful habits, and daily joy.",
+      techStack: ["Next.js","TypeScript", "CSS"],
+      imageSrc: "/images/sarasu31.png",
+      sourceUrl: "https://cheerboard.vercel.app/",
+    },
+    {
+      id:3,
+      feild: "Web3",
+      title: "CrowdFunding DApp",
+      description: "Crowdfunding platform where users can create campaigns, donate using crypto, and track progress in a decentralized, transparent way.",
+      techStack: ["Next.js","TypeScript", "Solidity", "Thirdweb"],
+      imageSrc: "/images/sarasu32.png",
+      sourceUrl: "https://github.com/uniitee/Crowdfunding-Platform",
+    },
+  ];
   return (
-    <div className="flex flex-col h-screen items-center justify bg-[#ff8b48] w-full">
-      <div
-        className={`tracking-wider text-7xl -mt-12 text-[#ff8b48] font-sacramento`}
-      >
-        THE ONLY GOOD I WAS UP TO
-      </div>
-      <div
-        className={`-mt-6 tracking-wider px-8 text-zinc-950 text-7xl font-sacramento bg-[#ff8b48] w-full flex justify-center`}
-      >
-        THIS WILL BE SOME TEXT
+    <div className="overflow-hidden sm:px-10 px-5 w-full min-h-svh">
+      <div className="mt-32 sm:mt-40 w-full flex flex-col items-center justify-center gap-4">
+        <div className="flex flex-col text-center font-sacramento mb-4">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-zinc-300">
+            PROJECTS
+          </h1>
+          <p className="text-md md:text-lg text-zinc-500 text-center w-full max-w-4xl mt-2">
+            And miles to go before I sleep, And miles to go before I sleep,
+          </p>
+        </div>
+        <div className="flex flex-col gap-2 sm:flex-row">
+        {projects.map((project)=>(
+          <ProjectCard 
+          key={project.id}
+          field={project.feild}
+          title={project.title}
+          description={project.description}
+          techStack={project.techStack}
+          imageSrc={project.imageSrc}
+          sourceUrl={project.sourceUrl}
+          />
+        ))}
+        </div>
       </div>
     </div>
   );
 }
-
-export default Projects
