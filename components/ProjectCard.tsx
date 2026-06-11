@@ -62,7 +62,7 @@ export default function ProjectCard({
       <Separator className="bg-mauve-600" />
 
       {/* Description */}
-      <div className="font-moms-typewriter text-xs text-mauve-100 min-h-16">
+      <div className="font-moms-typewriter text-xs text-mauve-100 lg:min-h-16">
         {description}
       </div>
 
@@ -88,7 +88,7 @@ export default function ProjectCard({
         className="flex flex-row gap-2 items-center text-mauve-100 hover:text-mauve-600 transition-colors"
       >
         <Github size={20} />
-        <span>Source</span>
+        <span>View Project</span>
       </Link>
     </div>
   );
