@@ -3,16 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// useeffect and usestate for og stae -> hiidden but then after hover (for each section indepententl) become visible. visibility stays after words. 
+// useeffect and usestate for og stae -> hiidden but then after hover (for each section indepententl) become visible. visibility stays after words.
 
 const TheTimes = () => {
-    const today = new Date();
-    const formattedDate = today.toLocaleDateString("en-IN", {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
+  const today = new Date();
+  const formattedDate = today.toLocaleDateString("en-IN", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
   return (
     <div className="w-full flex flex-col items-center justify-center gap-4 font-moms-typewriter bg-zinc-300 text-zinc-950 p-4 sm:p-6 md:p-8 overflow-hidden rounded-sm mt-8">
       <div className="grid grid-cols-5 text-xs sm:text-sm md:text-base gap-2 sm:gap-6 py-1 w-full font-sacramento">
@@ -85,7 +85,7 @@ const TheTimes = () => {
             <h1 className="text-md sm:text-2xl lg:text-3xl font-bold tracking-wider leading-tight wrap-break-word mb-2">
               HEISENBERG'S UNCERTAINTY PRINCIPLE
             </h1>
-
+    
             <div className="text-xs sm:text-sm font-thin text-justify">
               <p className="mb-2">
                 Physists claim that it is impossible to precisely determine the
@@ -94,10 +94,10 @@ const TheTimes = () => {
               </p>
               <p className="text-center">Δx⋅Δp ≥ h/2</p>
               <p className="my-2">
-              The dev agrees and adds that since everything is fundamentally microscopic,
-                the dev cannot scientifically confirm her availability for a
-                future date; and sends her apologies in advance for canceling
-                last minute.
+                The dev agrees and adds that since everything is fundamentally
+                microscopic, he cannot scientifically confirm her availability
+                for a future date; and sends her apologies in advance for
+                canceling last minute.
               </p>
             </div>
           </div>

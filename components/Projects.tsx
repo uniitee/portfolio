@@ -1,5 +1,5 @@
 "use client";
-import ProjectCard from "@/components/ui/ProjectCard";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Projects() {
   const projects = [

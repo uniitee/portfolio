@@ -1,7 +1,7 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
 import TheTimes from "@/components/TheTimes";
+import Projects from "./projects/page";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
         {/* <Projects/> */}
         {/* <About /> */}
         <TheTimes />
+        {/* <Projects /> */}
       </div>
     </main>
   );
