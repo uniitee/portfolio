@@ -8,7 +8,7 @@ const Hero = () => {
       <h1 className="text-sm sm:text-xl font-amita text-center text-zinc-400">
         ~ सत्यं परं धीमहि ~
       </h1>
-
+{/* Bhram satyam jagat mithya */}
       {/* Main Card */}
       {/* bg-[url('/images/blue2.jpg')] bg-contain */}
       <div className=" w-full max-w-5xl flex flex-col justify-center px-4 sm:px-8 md:px-18 py-8 rounded-sm gap-12 sm:gap-20">

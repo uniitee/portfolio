@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-7xl w-full ">
         <Hero />
         {/* <Projects/> */}
-        {/* <About /> */}
+        <About />
         <TheTimes />
         {/* <Projects /> */}
       </div>

@@ -35,6 +35,7 @@ export default function TechStack() {
         "Mongoose",
         "Express",
         "Thirdweb",
+        "SqlAlchemy",
       ],
     },
   ];
